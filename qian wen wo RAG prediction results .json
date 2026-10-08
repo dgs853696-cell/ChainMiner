@@ -1,0 +1,2645 @@
+{
+  "total": 330,
+  "data": [
+    {
+      "id": "001",
+      "sample_name": "web8",
+      "exploit_chain": "认证绕过",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "002",
+      "sample_name": "web10",
+      "exploit_chain": "信息泄露→密码学误用→信息泄露→长度扩展攻击→认证绕过→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "003",
+      "sample_name": "welcome",
+      "exploit_chain": "隐藏入口发现→访问控制缺陷→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "004",
+      "sample_name": "garden",
+      "exploit_chain": "不可信客户端头",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "005",
+      "sample_name": "Bestphp",
+      "exploit_chain": "不安全函数调用→变量覆盖→本地文件包含→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "006",
+      "sample_name": "X迪的pyp语言",
+      "exploit_chain": "源码泄露→跨站脚本",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "007",
+      "sample_name": "不是文件上传",
+      "exploit_chain": "SQL注入→不安全反序列化→任意文件读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "008",
+      "sample_name": "延时注入",
+      "exploit_chain": "不可信客户端头→SQL注入→延时盲注→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "009",
+      "sample_name": "图片信息查看器",
+      "exploit_chain": "不安全文件上传→反序列化→代码执行→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "010",
+      "sample_name": "知X堂的php教程",
+      "exploit_chain": "敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "011",
+      "sample_name": "WEB1",
+      "exploit_chain": "正则过滤绕过→代码注入→代码执行→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "012",
+      "sample_name": "web2",
+      "exploit_chain": "SQL注入→信息泄露→会话劫持→权限提升→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "013",
+      "sample_name": "web2-F12",
+      "exploit_chain": "信息泄露→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "014",
+      "sample_name": "web3",
+      "exploit_chain": "信息泄露→密码学误用→会话伪造→权限提升→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "015",
+      "sample_name": "web5",
+      "exploit_chain": "服务端请求伪造→敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "016",
+      "sample_name": "web7",
+      "exploit_chain": "源码泄露→本地文件包含→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "017",
+      "sample_name": "web_1",
+      "exploit_chain": "数组参数可控→字符过滤绕过/非ASCII拼接→弱类型数值转换绕过→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "018",
+      "sample_name": "web_2",
+      "exploit_chain": "硬编码密文→可逆编码→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "019",
+      "sample_name": "web_3",
+      "exploit_chain": "任意参数可控→任意文件写入/配置篡改→SUID权限配置不当",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "020",
+      "sample_name": "web_4",
+      "exploit_chain": "Cookie伪造→哈希比较绕过→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "021",
+      "sample_name": "web_5",
+      "exploit_chain": "输入过滤绕过→命令注入→代码执行→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "022",
+      "sample_name": "web_6",
+      "exploit_chain": "源码泄露→编码绕过→类型混淆→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "023",
+      "sample_name": "web_7",
+      "exploit_chain": "源码泄露→正则过滤绕过→代码注入→代码执行→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "024",
+      "sample_name": "web_gift",
+      "exploit_chain": "备份文件泄露→extract 变量覆盖→任意文件读取→比较绕过→输出 flag",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "025",
+      "sample_name": "includeairline",
+      "exploit_chain": "目录穿越→本地文件包含→源码泄露→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "026",
+      "sample_name": "myblog",
+      "exploit_chain": "SQL注入→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "027",
+      "sample_name": "web_php",
+      "exploit_chain": "参数类型混淆→md5弱类型比较绕过→php伪协议读取→严格比较绕过→源码读取→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "028",
+      "sample_name": "web_python",
+      "exploit_chain": "URL路径可控→模板注入SSTI→任意代码执行/任意文件读取→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "029",
+      "sample_name": "web_ser1",
+      "exploit_chain": "不安全反序列化→认证绕过→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "030",
+      "sample_name": "web_ser2",
+      "exploit_chain": "不安全反序列化→属性注入→逻辑绕过→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "031",
+      "sample_name": "web_ser3",
+      "exploit_chain": "反序列化注入→析构函数触发toString→任意文件读取→源码泄露→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "032",
+      "sample_name": "web_sql1",
+      "exploit_chain": "SQL注入→联合查询→数据库数据泄露→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "033",
+      "sample_name": "web_ssrf",
+      "exploit_chain": "SSRF→file协议滥用→任意文件读取→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "034",
+      "sample_name": "web_upload1",
+      "exploit_chain": "任意文件读取",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "035",
+      "sample_name": "web_upload2",
+      "exploit_chain": "Flag泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "036",
+      "sample_name": "web_wechatpay",
+      "exploit_chain": "XML外部实体注入XXE→敏感文件读取泄露支付密钥→签名校验伪造绕过→支付回调逻辑触发→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "037",
+      "sample_name": "web_xss",
+      "exploit_chain": "Flag泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "038",
+      "sample_name": "pp",
+      "exploit_chain": "原型污染→绕过HTML净化→DOM型XSS→窃取敏感信息→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "039",
+      "sample_name": "prettyjs",
+      "exploit_chain": "SameOrigin校验绕过→CSRF借用管理员已登录Cookie→泄露COOKIE_SECRET→伪造签名Cookie→越权访问/api/flag→Flag泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "040",
+      "sample_name": "prettynote",
+      "exploit_chain": "存储型XSS→postMessage跨域通信滥用→原型污染→DOM型XSS→窃取localStorage→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "041",
+      "sample_name": "proto",
+      "exploit_chain": "默认口令校验缺陷→JSON解析参数注入→原型污染→属性注入绕过条件判断→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "042",
+      "sample_name": "qiandao1",
+      "exploit_chain": "源码注释信息泄露→Base64解码→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "043",
+      "sample_name": "rceme",
+      "exploit_chain": "源码备份文件泄露→验证码弱校验绕过→eval代码执行→任意文件读取→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "044",
+      "sample_name": "readflag",
+      "exploit_chain": "目录穿越→任意文件读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "045",
+      "sample_name": "reboot",
+      "exploit_chain": "robots.txt信息泄露→敏感路径发现→直接访问flag.php→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "046",
+      "sample_name": "rename",
+      "exploit_chain": "源码泄露→上传黑名单绕过→任意文件上传→WebShell落地/代码执行",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "047",
+      "sample_name": "robot",
+      "exploit_chain": "robots.txt信息泄露→敏感目录枚举→备份文件下载→弱口令登录→后台Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "048",
+      "sample_name": "robots",
+      "exploit_chain": "robots.txt信息泄露→隐藏路径发现→源码泄露→逻辑绕过→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "049",
+      "sample_name": "rpo",
+      "exploit_chain": "相对路径覆盖RPO→关键脚本加载失败→window.name持久化注入→DOM型XSS→窃取敏感信息/Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "050",
+      "sample_name": "safe_include",
+      "exploit_chain": "本地文件包含LFI→php伪协议绕过→源码泄露→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "051",
+      "sample_name": "search",
+      "exploit_chain": "弱口令→暴力破解→后台登录→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "052",
+      "sample_name": "selfmade",
+      "exploit_chain": "SSRF→内网资源访问→敏感信息泄露→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "053",
+      "sample_name": "session",
+      "exploit_chain": "硬编码Flask密钥泄露→伪造SessionCookie→权限绕过访问/admin→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "054",
+      "sample_name": "signal",
+      "exploit_chain": "时序侧信道泄露→逐字节爆破校验值→认证绕过→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "055",
+      "sample_name": "simple_login",
+      "exploit_chain": "源码泄露→addslashes过滤绕过→SQL注入→数据库数据泄露→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "056",
+      "sample_name": "simpleweb",
+      "exploit_chain": "弱随机数可预测→种子爆破→会话验证码预测→严格比较绕过→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "057",
+      "sample_name": "spicy_taste",
+      "exploit_chain": "SSTI模板注入→任意代码执行→敏感文件读取→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "058",
+      "sample_name": "sql1",
+      "exploit_chain": "SQL注入→联合查询/报错注入→数据库数据泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "059",
+      "sample_name": "sql2.0",
+      "exploit_chain": "SQL注入→数据库信息泄露→Flag泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "060",
+      "sample_name": "sqlgame_revenge-单引号直接闭合",
+      "exploit_chain": "→SQL注入绕过过滤→构造查询结果伪造用户→逻辑校验通过→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "061",
+      "sample_name": "sqlblind",
+      "exploit_chain": "SQL注入→布尔盲注",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "062",
+      "sample_name": "sqlin1",
+      "exploit_chain": "SQL注入→认证绕过→命令注入→代码执行→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "063",
+      "sample_name": "ssrf",
+      "exploit_chain": "访问受限接口→敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "064",
+      "sample_name": "ssti",
+      "exploit_chain": "SSTI模板注入→沙箱逃逸→任意代码执行→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "065",
+      "sample_name": "switch",
+      "exploit_chain": "敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "066",
+      "sample_name": "Forms",
+      "exploit_chain": "源码泄露→类型混淆→认证绕过→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "067",
+      "sample_name": "Thinkphp",
+      "exploit_chain": "ThinkPHP框架RCE漏洞→命令执行→敏感文件读取→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "068",
+      "sample_name": "toudengcang",
+      "exploit_chain": "信息泄露→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "069",
+      "sample_name": "unserialize",
+      "exploit_chain": "MD5比较绕过→源码泄露→反序列化注入→对象属性注入→析构函数触发→Flag泄露这个呢",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "070",
+      "sample_name": "unserialize-1",
+      "exploit_chain": "反序列化注入→对象注入→析构函数文件包含→php伪协议读取源码→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "071",
+      "sample_name": "unserialize-2",
+      "exploit_chain": "反序列化注入→魔术方法链触发→任意文件读取→敏感信息泄露→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "072",
+      "sample_name": "unserialize-3",
+      "exploit_chain": "不安全反序列化→属性注入→任意文件读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "073",
+      "sample_name": "unserialize-4",
+      "exploit_chain": "不安全反序列化→代码执行→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "074",
+      "sample_name": "upload",
+      "exploit_chain": "不安全文件上传→代码执行→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "075",
+      "sample_name": "money",
+      "exploit_chain": "硬编码AES密钥泄露→伪造加密插件上传→解密解压执行init.py→远程代码执行→读取flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "076",
+      "sample_name": "upload_include2",
+      "exploit_chain": "文件上传绕过→本地文件包含→代码执行→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "077",
+      "sample_name": "UploadHub",
+      "exploit_chain": "不安全文件上传→目录穿越",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "078",
+      "sample_name": "urlencode",
+      "exploit_chain": "编码绕过→认证绕过",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "079",
+      "sample_name": "view_source",
+      "exploit_chain": "页面源码查看→HTML注释信息泄露→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "080",
+      "sample_name": "waf_sql_injection",
+      "exploit_chain": "WAF规则绕过→SQL注入→联合查询回显password字段→数据库敏感数据泄露→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "081",
+      "sample_name": "WAFWTF",
+      "exploit_chain": "WAF黑名单绕过(大小写混淆+注释替代空格)→SQL注入→UNION联合查询回显→读取secret表flag→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "082",
+      "sample_name": "wdb_comment",
+      "exploit_chain": "Apache 信息泄露→数据库弱口令→任意文件写入→权限提升→容器逃逸",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "083",
+      "sample_name": "wdb_fakebook",
+      "exploit_chain": "robots.txt信息泄露→备份文件泄露→SQL注入→数据库数据泄露/篡改→反序列化风险点存在",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "084",
+      "sample_name": "wdb_unfinish",
+      "exploit_chain": "注册处SQL注入→逗号黑名单绕过→时间盲注→逐位枚举flag表字段值→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "085",
+      "sample_name": "medium-unserialize",
+      "exploit_chain": "反序列化注入→Main析构可控文件写入→源码高亮读取flag.php→Flag泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "086",
+      "sample_name": "inject_me",
+      "exploit_chain": "XXE注入→任意文件读取",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "087",
+      "sample_name": "inject1",
+      "exploit_chain": "SQL注入→登录绕过→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "088",
+      "sample_name": "inject2",
+      "exploit_chain": "SQL注入→联合查询→读取flag表→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "089",
+      "sample_name": "inject3",
+      "exploit_chain": "SQL注入→布尔盲注→枚举数据库数据→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "090",
+      "sample_name": "inject4",
+      "exploit_chain": "SQL注入→时间盲注→逐位枚举flag字段→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "091",
+      "sample_name": "inject5",
+      "exploit_chain": "SQL注入→绕过sleep/benchmark弱过滤→盲注枚举数据→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "092",
+      "sample_name": "intval",
+      "exploit_chain": "正则校验绕过→严格比较绕过→Flag泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "093",
+      "sample_name": "is_this_possible",
+      "exploit_chain": "ORDERBY注入",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "094",
+      "sample_name": "java",
+      "exploit_chain": "不安全反序列化Cookie→触发User.readObject反序列化回调→命令执行RCE→读取/flag→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "095",
+      "sample_name": "jjang9",
+      "exploit_chain": "目录遍历→任意文件读取→源码/配置泄露→敏感信息提取→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "096",
+      "sample_name": "js_hell_1",
+      "exploit_chain": "JS混淆逆向还原→关键常量/校验逻辑提取→构造正确输入绕过验证→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "097",
+      "sample_name": "js_hell_2",
+      "exploit_chain": "JS反调试绕过→解密还原校验逻辑→构造有效token→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "098",
+      "sample_name": "just_login",
+      "exploit_chain": "弱类型比较绕过→认证绕过→越权访问管理接口→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "099",
+      "sample_name": "jwt",
+      "exploit_chain": "硬编码JWT密钥泄露→伪造JWT令牌→权限绕过(role伪造为admin)→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "100",
+      "sample_name": "last_old_school",
+      "exploit_chain": "目录扫描信息泄露→备份文件/源码泄露→弱口令/逻辑绕过→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "101",
+      "sample_name": "revenge",
+      "exploit_chain": "任意函数调用→SSRF访问127.0.0.1/flag.php→会话flag写入→会话泄露→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "102",
+      "sample_name": "lenlogin",
+      "exploit_chain": "长度校验逻辑缺陷→弱类型比较绕过→认证绕过→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "103",
+      "sample_name": "LFI",
+      "exploit_chain": "本地文件包含LFI→php伪协议读取→源码泄露→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "104",
+      "sample_name": "LOGIN_MASTER",
+      "exploit_chain": "弱类型比较绕过→认证绕过→越权访问管理接口→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "105",
+      "sample_name": "lottery",
+      "exploit_chain": "弱随机数可预测→中奖结果可控→触发领奖逻辑→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "106",
+      "sample_name": "maidcha",
+      "exploit_chain": "参数校验异常绕过→目录穿越→任意文件读取→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "107",
+      "sample_name": "memoboard",
+      "exploit_chain": "存储型XSS→管理员会话窃取→越权访问管理接口→Flag泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "108",
+      "sample_name": "mild_taste(unintended)",
+      "exploit_chain": "默认密钥泄露→伪造签名Cookie→权限绕过→Flag泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "109",
+      "sample_name": "my_first_app",
+      "exploit_chain": "URL校验缺陷→任意URL跳转→管理员机器人访问→特权触发→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "110",
+      "sample_name": "myblog",
+      "exploit_chain": "本地文件包含LFI→远程代码执行RCE",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "111",
+      "sample_name": "Metamon-Verse",
+      "exploit_chain": "认证后任意URL抓取SSRF→curl协议滥用file→任意文件读取LFI→NFS共享落地外带→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "112",
+      "sample_name": "n1ctf-easy_harder",
+      "exploit_chain": "文件包含LFI→源码泄露或日志环境投毒→代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "113",
+      "sample_name": "oShell",
+      "exploit_chain": "特权工具滥用tcpdumpcap_net_raw→配置注入触发命令执行RCE→利用SUID程序读敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "114",
+      "sample_name": "panghu",
+      "exploit_chain": "备份文件泄露→凭证泄露→后台登录→文件名入库存储→弱黑名单过滤绕过→二次SQL注入→回显查询→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "115",
+      "sample_name": "MimeShell",
+      "exploit_chain": "MIME类型校验缺陷→任意内容上传伪装图片→需配合解析或文件包含缺陷→可能远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "116",
+      "sample_name": "phar",
+      "exploit_chain": "弱文件上传校验→Phar伪装jpg上传→phar协议文件操作触发反序列化→POP链触发→源码读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "117",
+      "sample_name": "phpBestLanguage",
+      "exploit_chain": "变量覆盖→任意资源读取→逻辑校验被满足→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "118",
+      "sample_name": "phpwake",
+      "exploit_chain": "参数类型混淆→strcmp比较逻辑异常→条件判断绕过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "119",
+      "sample_name": "phpwake2",
+      "exploit_chain": "敏感信息泄露flag回显",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "120",
+      "sample_name": "PKW-sql教学",
+      "exploit_chain": "黑名单WAF绕过→库表信息枚举",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "121",
+      "sample_name": "pop_chain_epic",
+      "exploit_chain": "不安全反序列化unserialize→POP链魔术方法触发→异常wakeup不阻断析构→可控callable注入→任意函数调用→远程代码执行RCE或敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "122",
+      "sample_name": "power_of_xx",
+      "exploit_chain": "XXE外部实体注入→协议包装器滥用→任意文件读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "123",
+      "sample_name": "Day1Web4",
+      "exploit_chain": "文件上传校验缺陷→双扩展伪装jpg→解析差异或竞争窗口→脚本执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "124",
+      "sample_name": "Day1Web5",
+      "exploit_chain": "文件包含LFI→源码读取→配置泄露数据库凭证→黑名单过滤绕过SQL注入→数据回显或查询结果泄露→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "125",
+      "sample_name": "Day2Web1",
+      "exploit_chain": "黑名单过滤逻辑缺陷stripos误用→过滤绕过→数字型SQL注入→查询结果回显→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "126",
+      "sample_name": "diao图管理器",
+      "exploit_chain": "硬编码凭证→后台接口可达→递归合并导致原型污染→跨对象属性注入→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "127",
+      "sample_name": "dirt-Y",
+      "exploit_chain": "Cookie变量覆盖extract→关键参数可控→类型混淆绕过逻辑校验→strcmp比较逻辑异常→位运算XOR条件可控满足→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "128",
+      "sample_name": "dom_clobbering",
+      "exploit_chain": "DOMClobbering→全局变量或DOM属性被覆盖→安全检查失效或脚本加载源可控→DOM型XSS→会话或敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "129",
+      "sample_name": "easy_serialize_php",
+      "exploit_chain": "extract变量覆盖→会话数据可控→不安全反序列化unserialize→可控数组字段注入→base64解码路径→任意文件读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "130",
+      "sample_name": "easy_web",
+      "exploit_chain": "黑名单过滤不全可用base64等命令读文件",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "131",
+      "sample_name": "easygame",
+      "exploit_chain": "参数校验通过→信任可控IP头HTTP_CLIENT_IP或HTTP_X_FORWARDED_FOR→IP伪造绕过本地限制→管理员判定通过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "132",
+      "sample_name": "easyPython",
+      "exploit_chain": "敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "133",
+      "sample_name": "Easyrce",
+      "exploit_chain": "模板注入SSTI→模板表达式执行→绕过过滤访问危险对象→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "134",
+      "sample_name": "edr",
+      "exploit_chain": "extract变量覆盖→闭包use变量被覆盖导致callable注入→任意函数调用→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "135",
+      "sample_name": "ez_sql",
+      "exploit_chain": "查询参数直传ORMwhere条件→SQL注入→联合查询跨表读取flag表→接口JSON回显→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "136",
+      "sample_name": "EzJava",
+      "exploit_chain": "DSA签名使用弱随机数javautilRandom→可预测k导致私钥恢复→逻辑校验绕过进入/object→POP链触发→远程代码执行RCE或敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "137",
+      "sample_name": "FighterFightsInvincibly",
+      "exploit_chain": "请求参数可控函数名→变量函数任意函数调用→命令执行RCE→读取flag→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "138",
+      "sample_name": "filemanager2",
+      "exploit_chain": "任意内容文件上传→重命名接口SQL注入→篡改文件记录扩展名→文件系统rename落地为php→脚本执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "139",
+      "sample_name": "getpost",
+      "exploit_chain": "同时满足全等比较条件→逻辑校验通过→敏感信息泄露flag回显",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "140",
+      "sample_name": "goodaegi_board",
+      "exploit_chain": "黑名单WAF过滤绕过→注册时用户名可控入库→登录后用户名写入session→board页面二次SQL注入→绕过where限制读取他人帖子→页面回显→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "141",
+      "sample_name": "GoOSS",
+      "exploit_chain": "路径穿越或路径解析混淆→SSRF→访问内网文件读取接口→任意文件读取",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "142",
+      "sample_name": "greatphp",
+      "exploit_chain": "弱类型比较绕过md5校验→变量覆盖extract→可控文件名→phpfilter读取源码→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "143",
+      "sample_name": "handmade",
+      "exploit_chain": "路径穿越DirectoryTraversal→任意文件读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "144",
+      "sample_name": "HAPPY",
+      "exploit_chain": "不安全反序列化unserialize→POP链魔术方法触发→可控回调或命令拼接→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "145",
+      "sample_name": "登陆一下好吗_万能登录",
+      "exploit_chain": "黑名单WAF过滤绕过→拼接SQL注入→条件构造影响查询结果行数→逻辑判定绕过count阈值→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "146",
+      "sample_name": "header",
+      "exploit_chain": "信任可控请求头XForwardedFor与UserAgent→伪造本地来源绕过访问限制→md5弱类型比较magic hash绕过→逻辑校验通过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "147",
+      "sample_name": "hello",
+      "exploit_chain": "信任可控请求头XForwardedFor→伪造内网来源绕过访问限制→信任可控UserAgent→伪造客户端标识通过二次校验→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "148",
+      "sample_name": "babyfirst",
+      "exploit_chain": "正则校验缺陷换行绕过→命令注入→任意命令执行→外部资源下载→利用PHP可执行归档文件特性→写入webshell→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "149",
+      "sample_name": "510cms",
+      "exploit_chain": "登录SQL注入→管理员认证绕过→进入后台→任意文件上传允许php后缀→脚本执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "150",
+      "sample_name": "996game",
+      "exploit_chain": "ObjectId解析异常触发→错误信息被eval执行→服务端RCE→敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "151",
+      "sample_name": "APPLE",
+      "exploit_chain": "信任可控请求头XVerifyCodeUrl→SSRF→非HTTP协议转发导致任意TCP请求伪造Gopher式→访问内网服务internalssoservice→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "152",
+      "sample_name": "arcade",
+      "exploit_chain": "管理员机器人访问游戏页→敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "153",
+      "sample_name": "Audit Master",
+      "exploit_chain": "输入参数可控→引号过滤不完整→Jinja2模板注入SSTI→模板表达式执行→读取应用配置→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "154",
+      "sample_name": "BABY_XSS",
+      "exploit_chain": "存储型XSS→管理员机器人访问→脚本在管理员上下文执行→读取敏感信息或发起特权请求→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "155",
+      "sample_name": "baby-cake",
+      "exploit_chain": "URL参数可控",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "156",
+      "sample_name": "baby-cake2",
+      "exploit_chain": "SSRF→DNS重绑定或IP解析绕过→访问受限内网资源→响应回显→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "157",
+      "sample_name": "babyfirst-revenge",
+      "exploit_chain": "正则过滤缺陷或换行编码绕过→命令注入→受限命令执行RCE→绕过黑名单读取文件→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "158",
+      "sample_name": "babyphp",
+      "exploit_chain": "Session数据投毒对象注入→不安全反序列化unserialize→POP链魔术方法触发→敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "159",
+      "sample_name": "babytrick",
+      "exploit_chain": "敏感信息泄露flag回显",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "160",
+      "sample_name": "babytrick2",
+      "exploit_chain": "不安全反序列化unserialize→对象注入覆盖private属性methodargs→析构函数call_user_func_array触发敏感方法login或show→拼接SQL导致SQL注入或过滤逻辑缺陷绕过→认证绕过获得admin结果→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "161",
+      "sample_name": "babyupload",
+      "exploit_chain": "文件上传校验缺陷→解析差异或可控包含触发执行",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "162",
+      "sample_name": "backdoor",
+      "exploit_chain": "框架路由可直接调用控制器方法→隐藏后门接口Indexbackdoor暴露→参数command可控→system命令执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "163",
+      "sample_name": "baibaibai",
+      "exploit_chain": "数组参数注入exp表达式→黑名单WAF绕过→ThinkPHP查询构造器表达式注入SQLi→调试报错回显→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "164",
+      "sample_name": "BandBomb",
+      "exploit_chain": "数组反序列化或输入反序列化→POP链魔术方法触发→命令拼接或可控回调→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "165",
+      "sample_name": "Belluminar",
+      "exploit_chain": "路径穿越DirectoryTraversal→任意文件读取→源码与配置泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "166",
+      "sample_name": "Belluminar2",
+      "exploit_chain": "文件包含LFI→源码泄露→SQL注入→XSLT样式表路径可控→远程代码执行RCE→敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "167",
+      "sample_name": "best_profile",
+      "exploit_chain": "存储型XSS→管理员访问个人资料页→脚本在管理员上下文执行→读取敏感信息或发起特权请求→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "168",
+      "sample_name": "bestphp",
+      "exploit_chain": "function参数可控任意函数调用→extract变量覆盖→可控include文件包含LFI→源码读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "169",
+      "sample_name": "blink",
+      "exploit_chain": "DOMClobbering覆盖body.togglePopover→setInterval字符串执行→DOM型XSS→读取FLAGCookie→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "170",
+      "sample_name": "bookstore",
+      "exploit_chain": "源码泄露backup",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "171",
+      "sample_name": "booli",
+      "exploit_chain": "认证逻辑缺陷仅判断mysqli_query是否执行成功未校验返回行数→任意账号密码触发查询成功→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "172",
+      "sample_name": "boom_it",
+      "exploit_chain": "硬编码FlaskSecretKey→会话伪造SessionForgery→管理员权限绕过→后台上传文件名未净化导致路径穿越任意文件写入→写入locktxt打开命令执行开关→命令执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "173",
+      "sample_name": "bounty-pl33z",
+      "exploit_chain": "URL白名单限制可用同源路径→fd参数过滤缺陷导致反射型XSS→管理员机器人访问报告URL→先访问admin页面种flagCookie→XSS在管理员上下文执行→读取Cookie中flag→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "174",
+      "sample_name": "buggy-net",
+      "exploit_chain": "服务端模板注入SSTI→模板表达式执行→访问危险对象或内置→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "175",
+      "sample_name": "calc",
+      "exploit_chain": "黑名单WAF过滤绕过→eval表达式注入→任意代码执行RCE→读取flag文件→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "176",
+      "sample_name": "captcha",
+      "exploit_chain": "路径拼接未过滤name→路径解析混淆或目录穿越→可控/tmp下计数与验证码文件读写→篡改solved计数→逻辑阈值校验绕过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "177",
+      "sample_name": "CBC翻转",
+      "exploit_chain": "AESCBCCBC位翻转攻击→明文可控字段被定向修改→权限标志或校验字段被篡改→认证绕过获得管理员→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "178",
+      "sample_name": "Charlie Hunt 2",
+      "exploit_chain": "调试模式Debug开启→未授权访问触发异常信息泄露→Werkzeug调试器暴露→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "179",
+      "sample_name": "checker",
+      "exploit_chain": "弱后缀校验文件上传→伪装jpeg的Phar归档落地→黑名单仅拦phar前缀可被嵌套包装器绕过→getimagesize文件操作触发Phar元数据反序列化→POP链析构任意方法调用→curl发起SSRF或本地资源读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "180",
+      "sample_name": "checkjs",
+      "exploit_chain": "JS源码泄露或前端校验可逆→绕过前端检查直达后端接口→后端鉴权逻辑缺陷→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "181",
+      "sample_name": "classroom",
+      "exploit_chain": "Debug模式开启→静态文件路由逻辑错误返回None→触发Django调试错误页→堆栈与环境信息泄露→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "182",
+      "sample_name": "close_eyes",
+      "exploit_chain": "SQL注入→盲注布尔或时间→枚举数据库user表记录→读取flag字段→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "183",
+      "sample_name": "CMS directly secured",
+      "exploit_chain": "未授权接口信息泄露users泄露明文账号密码→后台登录→可控序列化数据写入update→不安全反序列化unserialize→ThinkPHP框架POP链触发→远程代码执行RCE或敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "184",
+      "sample_name": "cmseasy 5.7rce1",
+      "exploit_chain": "后台认证通过或拿到888权限→模板标签内容可控入库→前台templatetag接口调用→frontview_eval编译执行→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "185",
+      "sample_name": "cmseasy 5.7xss",
+      "exploit_chain": "后台内容过滤缺陷→存储型XSS→管理员访问后台列表或编辑页触发→管理员会话泄露或特权操作代办→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "186",
+      "sample_name": "codeaudit1",
+      "exploit_chain": "认证逻辑缺陷→MD5碰撞绕过严格全等比较→条件校验通过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "187",
+      "sample_name": "colorsnake",
+      "exploit_chain": "业务逻辑缺陷仅靠时间间隔判定防作弊→接口getScore无鉴权可直接请求→脚本化按阈值累加score→达到50触发flag回显→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "188",
+      "sample_name": "coloursnake",
+      "exploit_chain": "业务逻辑缺陷仅靠时间间隔判定防作弊→接口getScore无鉴权可直接请求→脚本化重复触发累加score→达到阈值触发flag回显→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "189",
+      "sample_name": "command",
+      "exploit_chain": "命令拼接未做安全转义→命令注入→任意命令执行RCE→读取flag文件→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "190",
+      "sample_name": "Cookie",
+      "exploit_chain": "Cookie可控→弱加密或可预测签名→Cookie伪造篡改→权限校验绕过伪装admin",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "191",
+      "sample_name": "cookies",
+      "exploit_chain": "Cookie可控→Base64编码JSON无签名无加密→伪造Cookie字段username与status→认证与权限校验绕过伪装admin→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "192",
+      "sample_name": "count",
+      "exploit_chain": "整数溢出或类型边界缺陷→count累加绕过上限判断→逻辑校验通过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "193",
+      "sample_name": "cross",
+      "exploit_chain": "跨站请求伪造CSRF→诱导管理员访问恶意页面→管理员身份自动发起敏感POST请求→触发后台flag接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "194",
+      "sample_name": "CSP nonce",
+      "exploit_chain": "跨站请求伪造CSRF→诱导管理员访问恶意页面→管理员身份自动发起敏感POST请求→触发后台flag接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "195",
+      "sample_name": "csrfx",
+      "exploit_chain": "CSRF缺乏校验→以管理员会话触发敏感接口→服务端执行敏感操作并回显结果→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "196",
+      "sample_name": "cssgame",
+      "exploit_chain": "CSS注入→利用CSS选择器侧信道→逐字符泄露敏感DOM内容或flag→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "197",
+      "sample_name": "curl",
+      "exploit_chain": "URL参数可控→服务端curl请求SSRF→gopher或dict协议走私→伪造内网Redis写入计划任务或web目录→命令执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "198",
+      "sample_name": "cuthands",
+      "exploit_chain": "业务逻辑缺陷负数数量绕过→余额计算符号错误导致任意加钱→购买受限商品拿到管理员邮箱→密码找回逻辑缺陷可预测token→重置接口直接泄露密码→登录管理员→购买高权限商品→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "199",
+      "sample_name": "Day1 Web1",
+      "exploit_chain": "弱类型比较绕过md5校验→包含参数可控LFI→phpfilter读取源码→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "200",
+      "sample_name": "Day1 Web2",
+      "exploit_chain": "业务逻辑缺陷discount参数可控→低价购买lv6商品触发后门跳转→后台接口可达b1g_m4mber→pickle不安全反序列化→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "201",
+      "sample_name": "Day1 Web3",
+      "exploit_chain": "文件包含LFI→phpfilter源码读取→配置泄露→命令执行点可达或系统调用参数注入→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "202",
+      "sample_name": "DebugBoard",
+      "exploit_chain": "调试开关debug导致extract变量覆盖→管理员校验绕过→模板表达式eval执行SSTI→任意PHP代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "203",
+      "sample_name": "demophpcms",
+      "exploit_chain": "图片上传校验缺陷信任MIME→文件后缀可控拼接进shell命令→命令注入→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "204",
+      "sample_name": "Deprecated",
+      "exploit_chain": "JWT算法混淆RS256HS256→伪造sessionToken→权限提升伪装admin并设置FilePriviledgedUser→访问受限接口checkfile或viewlog→任意日志文件读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "205",
+      "sample_name": "deserbug",
+      "exploit_chain": "不安全反序列化unserialize→对象属性注入→魔术方法POP链触发→可控回调或函数调用→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "206",
+      "sample_name": "deserted_place",
+      "exploit_chain": "目录遍历或LFI→源码与配置泄露→凭证或密钥泄露→权限提升→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "207",
+      "sample_name": "DiscuzX3.5",
+      "exploit_chain": "插件接口签名校验可被满足或绕过→POP链魔术方法触发",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "208",
+      "sample_name": "DOM_XSS",
+      "exploit_chain": "读取敏感信息或发起特权请求→敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "209",
+      "sample_name": "double-check",
+      "exploit_chain": "双重校验逻辑缺陷→弱类型比较或类型混淆绕过→条件判断被满足→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "210",
+      "sample_name": "double-leaks",
+      "exploit_chain": "两处信息泄露组合→phpfilter读取源码泄露密钥→利用密钥伪造签名cookie或token→权限绕过→访问flag接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "211",
+      "sample_name": "Download it",
+      "exploit_chain": "下载token鉴权设计缺陷authcode密钥管理不当",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "212",
+      "sample_name": "Easy flask-源码下载接口暴露www",
+      "exploit_chain": "zip→硬编码FlaskSecretKey→会话伪造SessionForgery→伪装admin→访问flag接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "213",
+      "sample_name": "Easy_login",
+      "exploit_chain": "认证逻辑缺陷→弱类型比较或类型混淆绕过密码校验→登录绕过获得admin→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "214",
+      "sample_name": "eeeeejs",
+      "exploit_chain": "前端校验逻辑可逆→绕过前端限制直达后端→后端鉴权或签名校验缺陷→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "215",
+      "sample_name": "Ekko_note",
+      "exploit_chain": "越权IDOR→可枚举笔记ID读取他人笔记→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "216",
+      "sample_name": "esc-error",
+      "exploit_chain": "转义处理错误导致格式化输出异常→错误信息回显泄露敏感路径与变量→利用泄露信息构造二次注入或绕过→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "217",
+      "sample_name": "evil ser",
+      "exploit_chain": "不安全反序列化unserialize→对象注入覆盖关键属性→POP链魔术方法触发→可控回调或函数调用→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "218",
+      "sample_name": "exec",
+      "exploit_chain": "参数可控拼接进exec或system→命令注入→任意命令执行RCE→读取flag文件→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "219",
+      "sample_name": "ez_blog",
+      "exploit_chain": "Cookie可控Token→pickle不安全反序列化loads→对象注入伪造is_admin或触发reduce→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "220",
+      "sample_name": "ez_cms",
+      "exploit_chain": "未授权安装或初始化接口暴露→重置管理员密码或创建管理员→写入可执行脚本→远程代码执行RCE",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "221",
+      "sample_name": "ez_file",
+      "exploit_chain": "目JSON变量覆盖→伪造管理员会话绕过本地IP限制→后台重命名功能任意文件读取→写入uploads实现文件外带→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "222",
+      "sample_name": "Ez_Gallery",
+      "exploit_chain": "文件上传校验缺陷→可控文件落地uploads→后缀解析差异或双扩展绕过→脚本执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "223",
+      "sample_name": "ez_laravel",
+      "exploit_chain": "注册逻辑缺陷未限制保留管理员邮箱→权限判定仅依赖email固定值→垂直越权伪装admin→访问受限flag接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "224",
+      "sample_name": "ez_pickle",
+      "exploit_chain": "用户输入可控→pickle不安全反序列化loads→对象注入触发reduce→远程代码执行RCE→读取flag→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "225",
+      "sample_name": "ez_read",
+      "exploit_chain": "不安全反序列化unserialize→对象属性注入→POP链魔术方法触发→可控回调或任意函数调用→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "226",
+      "sample_name": "ez_signin",
+      "exploit_chain": "注册逻辑缺陷可控username包含admin关键字→权限判定使用substr或strpos判断→垂直越权伪装admin→访问flag接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "227",
+      "sample_name": "ez_unser",
+      "exploit_chain": "不安全反序列化unserialize→对象注入覆盖关键属性→POP链魔术方法触发→可控函数调用或敏感文件读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "228",
+      "sample_name": "ez_yaml",
+      "exploit_chain": "YAML不安全反序列化→构造危险标签对象→触发任意对象实例化或方法调用→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "229",
+      "sample_name": "ez-bottle",
+      "exploit_chain": "服务端模板注入SSTI→模板表达式执行→绕过过滤访问内置对象→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "230",
+      "sample_name": "ez-injection",
+      "exploit_chain": "参数拼接进SQL→SQL注入→联合查询或盲注枚举→读取flag表字段→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "231",
+      "sample_name": "ezmaria",
+      "exploit_chain": "黑名单过滤绕过→multi_query堆叠SQL注入→报错回显base64泄露→读取敏感数据或文件→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "232",
+      "sample_name": "ezphp",
+      "exploit_chain": "XML结构注入→XXE外部实体展开LIBXML_NOENT与DTDLOAD→任意文件读取→错误回显带出实体内容→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "233",
+      "sample_name": "ez-polluted",
+      "exploit_chain": "会话伪造认证绕过",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "234",
+      "sample_name": "ezpop",
+      "exploit_chain": "不安全反序列化unserialize→对象注入→POP链魔术方法触发→可控回调或任意函数调用→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "235",
+      "sample_name": "ez-serialize",
+      "exploit_chain": "不安全反序列化unserialize→对象属性注入→POP链魔术方法触发→可控回调或任意函数调用→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "236",
+      "sample_name": "ezsql",
+      "exploit_chain": "参数拼接进SQL→SQL注入→联合查询或盲注枚举→读取flag表字段→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "237",
+      "sample_name": "ez",
+      "exploit_chain": "目录穿越或任意文件写入→覆盖配置或写入可执行脚本→脚本执行RCE",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "238",
+      "sample_name": "fake galgame",
+      "exploit_chain": "前端校验可逆或JS源码泄露→绕过前端限制直达后端接口→后端鉴权逻辑缺陷或IDOR越权→读取受限资源→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "239",
+      "sample_name": "filePath",
+      "exploit_chain": "未授权APIgetModel任意方法调用→调用editor模块save→filePath路径校验可利用写入web目录→任意文件写入→脚本被解析执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "240",
+      "sample_name": "final",
+      "exploit_chain": "信任HTTP_CLIENT_IP或HTTP_X_FORWARDED_FOR判定本地→伪造本地来源绕过localhost限制→同时可控GETPOSTCookie与请求头UserAgentReferer满足全等校验→跳转success回显base64flag→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "241",
+      "sample_name": "Final-SEO",
+      "exploit_chain": "缓存投毒或Host头信任缺陷→SEO预渲染抓取器访问受控URL→服务端请求伪造SSRF→访问内网管理接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "242",
+      "sample_name": "flagAlias",
+      "exploit_chain": "路由别名或软链接映射缺陷→flag路径别名可达→访问控制绕过→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "243",
+      "sample_name": "FlaskJinja",
+      "exploit_chain": "Jinja2模板注入SSTI→模板表达式执行→访问内置对象绕过限制→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "244",
+      "sample_name": "forbidden",
+      "exploit_chain": "路径校验缺陷仅拦flag关键字→目录穿越或大小写编码绕过→任意文件读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "245",
+      "sample_name": "funny-lfr",
+      "exploit_chain": "日志文件包含LFI→访问日志注入可控内容→日志投毒触发解析执行→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "246",
+      "sample_name": "gallery",
+      "exploit_chain": "文件上传校验缺陷→可控文件落地uploads→后缀解析差异或双扩展绕过→敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "247",
+      "sample_name": "GAME",
+      "exploit_chain": "业务逻辑缺陷分数或金币参数可控→越权获得高权限状态admin或vip→触发隐藏flag接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "248",
+      "sample_name": "gateway_advance",
+      "exploit_chain": "请求头信任缺陷XForwardedFor或XRealIP→伪造内网来源绕过网关鉴权→SSRF转发到内网服务→访问受限管理接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "249",
+      "sample_name": "Gavatar",
+      "exploit_chain": "头像上传校验缺陷信任MIME或后缀→可控文件落地头像目录→路径解析混淆或双扩展绕过→脚本执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "250",
+      "sample_name": "GinTest_pulic",
+      "exploit_chain": "调试接口暴露或测试路由未鉴权→任意请求转发或参数注入→命令执行或模板注入触发→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "251",
+      "sample_name": "giraffe's-coffee",
+      "exploit_chain": "业务逻辑绕过0元购或越权领取权限→触发管理员功能或隐藏接口→敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "252",
+      "sample_name": "go_build",
+      "exploit_chain": "源码或构建产物泄露→Go构建脚本命令拼接缺陷→命令注入→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "253",
+      "sample_name": "go_session",
+      "exploit_chain": "Session签名密钥泄露或弱随机→伪造Session→权限绕过伪装admin→访问受限接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "254",
+      "sample_name": "gogo-powersql",
+      "exploit_chain": "未授权访问 CGI 接口 → CGI 环境变量注入 → 通过 LD_PRELOAD / 动态链接相关环境影响 query 的加载过程 → 以 GoAhead 进程权限执行任意代码 → 敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "255",
+      "sample_name": "Gotar",
+      "exploit_chain": "上传tar解压未校验路径ZipSlip→目录穿越覆盖任意文件→覆盖配置或写入可执行脚本→脚本执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "256",
+      "sample_name": "grandprixheaven",
+      "exploit_chain": "服务端模板注入SSTI→模板表达式执行→访问内置对象绕过限制→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "257",
+      "sample_name": "Hell Communications 2",
+      "exploit_chain": "会话或权限校验缺陷→越权访问管理功能→参数拼接导致命令注入或模板注入→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "258",
+      "sample_name": "Hell Communications",
+      "exploit_chain": "输入过滤缺陷→存储型XSS或反射型XSS→管理员访问触发→会话劫持或特权操作代办→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "259",
+      "sample_name": "hidden_note",
+      "exploit_chain": "越权IDOR→可枚举noteid读取隐藏笔记→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "260",
+      "sample_name": "hspace_proxy",
+      "exploit_chain": "代理功能URL可控→服务端请求伪造SSRF→绕过内网黑名单访问127001或localhost→访问内网flag服务→响应回显→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "261",
+      "sample_name": "htmls",
+      "exploit_chain": "HTML模板渲染未过滤→存储型XSS或反射型XSS→管理员访问触发→会话泄露或特权操作代办→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "262",
+      "sample_name": "iamthinking",
+      "exploit_chain": "弱类型比较或类型混淆绕过→条件判断被满足→逻辑校验通过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "263",
+      "sample_name": "imgbed",
+      "exploit_chain": "URL抓取或图片代理参数可控→SSRF或协议包装器滥用file→任意文件读取→响应回显或外带→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "264",
+      "sample_name": "IncludeAirline",
+      "exploit_chain": "文件包含LFI→phpfilter源码读取→配置泄露→凭证或密钥泄露→访问受限接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "265",
+      "sample_name": "inject",
+      "exploit_chain": "参数拼接进SQL或命令→注入漏洞SQL注入或命令注入→读取flag字段",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "266",
+      "sample_name": "lsvmhhh",
+      "exploit_chain": "弱类型比较或类型混淆→条件判断绕过→身份或权限校验通过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "267",
+      "sample_name": "it",
+      "exploit_chain": "路径参数可控→目录穿越DirectoryTraversal→任意文件读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "268",
+      "sample_name": "kanonpy",
+      "exploit_chain": "调试或源码泄露→pickle不安全反序列化→远程代码执行RCE→读取flag→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "269",
+      "sample_name": "lalala",
+      "exploit_chain": "输入过滤缺陷→存储型XSS→管理员访问触发→会话泄露或特权操作代办→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "270",
+      "sample_name": "legacy_v2",
+      "exploit_chain": "旧版本遗留接口未鉴权→敏感配置或密钥泄露→会话伪造或权限绕过→访问受限flag接口→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "271",
+      "sample_name": "LIFE",
+      "exploit_chain": "敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "272",
+      "sample_name": "log4j",
+      "exploit_chain": "JNDI注入Log4Shell→外部类加载或远程引用解析→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "273",
+      "sample_name": "loop",
+      "exploit_chain": "业务逻辑缺陷循环计数可控→绕过次数上限→条件判断通过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "274",
+      "sample_name": "Mark",
+      "exploit_chain": "存储型XSS或Markdown渲染未净化→脚本执行→读取敏感信息或特权操作代办→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "275",
+      "sample_name": "master",
+      "exploit_chain": "伪造会话或登录后台",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "276",
+      "sample_name": "master-php",
+      "exploit_chain": "Git源码泄露或备份泄露→获取配置密钥→Cookie或Session可伪造→权限绕过伪装admin→文件包含LFI或后台文件管理写入→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "277",
+      "sample_name": "me",
+      "exploit_chain": "弱类型比较绕过→身份校验通过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "278",
+      "sample_name": "motto",
+      "exploit_chain": "存储型XSS→管理员访问motto页面触发→脚本在管理员上下文执行→读取flagCookie或发起特权请求→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "279",
+      "sample_name": "php-challenge",
+      "exploit_chain": "php弱类型比较与哈希比较缺陷→条件判断绕过→包含参数可控LFI→phpfilter源码读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "280",
+      "sample_name": "quals",
+      "exploit_chain": "AngularJS模板表达式注入→服务端渲染时表达式执行→获取注入器中的i18n服务→滥用模板读取接口读取本地文件flagtxt→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "281",
+      "sample_name": "RCE",
+      "exploit_chain": "配置插值表达式可控→启用ExprLookupJEXL表达式解析→表达式在服务端求值执行→任意代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "282",
+      "sample_name": "revenge",
+      "exploit_chain": "参数cmd可控→exec命令执行点→长度限制防护不足可被绕过或用短命令组合利用→写入并触发执行或直接执行系统命令→远程代码执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "283",
+      "sample_name": "revenge-v2",
+      "exploit_chain": "黑名单过滤不完整→命令注入→受限命令执行RCE→绕过限制读取文件→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "284",
+      "sample_name": "Samedit",
+      "exploit_chain": "任意文件读取或注册表hive导出→读取SAM与SYSTEM→离线提取NTLM哈希→横向移动或提权→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "285",
+      "sample_name": "sql-sql",
+      "exploit_chain": "参数拼接SQL→SQL注入→堆叠或联合查询→读取flag表字段→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "286",
+      "sample_name": "task",
+      "exploit_chain": "敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "287",
+      "sample_name": "webweb1",
+      "exploit_chain": "弱类型比较绕过→逻辑校验通过→敏感信息泄露flag回显",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "288",
+      "sample_name": "webweb2",
+      "exploit_chain": "黑名单过滤绕过→SQL注入→回显或盲注枚举→读取flag→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "289",
+      "sample_name": "webweb3",
+      "exploit_chain": "phpfilter源码读取→敏感信息泄露",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "290",
+      "sample_name": "webweb4",
+      "exploit_chain": "文件上传校验缺陷→可控文件落地→解析差异或双扩展绕过→脚本执行RCE→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "291",
+      "sample_name": "蓝鲸笔记管理系统",
+      "exploit_chain": "越权IDOR→可枚举笔记ID读取他人笔记→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "292",
+      "sample_name": "蓝鲸日记系统",
+      "exploit_chain": "认证与授权缺陷→水平越权读取他人日记",
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "293",
+      "sample_name": "蓝鲸文件管理系统",
+      "exploit_chain": "路径穿越DirectoryTraversal→任意文件下载读取→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "294",
+      "sample_name": "Nexus Void",
+      "exploit_chain": "权限校验缺陷或IDOR越权→访问受限资源或管理员功能→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "295",
+      "sample_name": "PhantomFeed",
+      "exploit_chain": "RSS或Feed抓取URL可控→服务端请求伪造SSRF→访问内网服务或元数据接口→响应回显或带外外带→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "296",
+      "sample_name": "GateCrash",
+      "exploit_chain": "CRLF注入UserAgent→绕过输入校验containsSqlInjection→登录接口SQL注入→认证绕过→读取flag→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "297",
+      "sample_name": "？？？",
+      "exploit_chain": "后门口令校验缺陷maxlenth→暴露命令执行入口sh3ll→黑名单正则过滤绕过→命令执行RCE→读取fl4g文件→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "298",
+      "sample_name": "extract0r",
+      "exploit_chain": "压缩包符号链接解压处理缺陷→目录枚举或任意文件读取→源码泄露→SSRF过滤绕过parseurl与curl解析差异→访问内网数据库→读取flag→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "299",
+      "sample_name": "urlstorage",
+      "exploit_chain": "URL存储功能缺陷→URL校验可绕过→管理员机器人访问存储URL→存储型或反射型XSS→读取管理员Cookie或发起特权请求→敏感信息泄露",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "300",
+      "sample_name": "phar伪协议",
+      "exploit_chain": "文件上传校验缺陷→Phar伪装图片落地→文件操作函数触发phar协议反序列化→POP链魔术方法触发→敏感信息泄露或远程代码执行RCE",
+      "label": 1,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "301",
+      "sample_name": "AcpiPsCreateOp",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "302",
+      "sample_name": "CreateEntry",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "303",
+      "sample_name": "ext4_orphan_cleanup",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "304",
+      "sample_name": "fixup_bpf_calls",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "305",
+      "sample_name": "GetSpecificPortMappingEntry",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "306",
+      "sample_name": "ih264d_init_decoder",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "307",
+      "sample_name": "jpc_ns_invlift_col",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "308",
+      "sample_name": "load_segment_descriptor",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "309",
+      "sample_name": "mem_cgroup_replace_page",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "310",
+      "sample_name": "mpol_parse_str",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "311",
+      "sample_name": "netlink_trim",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "312",
+      "sample_name": "nfsreq_print_noaddr",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "313",
+      "sample_name": "nft_del_setelem",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "314",
+      "sample_name": "process_add_entry",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "315",
+      "sample_name": "sctp_v6_scope",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "316",
+      "sample_name": "skcipher_recvmsg_async",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "317",
+      "sample_name": "StartProxiedExecution",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "318",
+      "sample_name": "usage",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "319",
+      "sample_name": "yysyntax_error",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "320",
+      "sample_name": "netdev_upper_dev_link",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "321",
+      "sample_name": "nfs4_recover_proc_open",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 1,
+      "is_correct": false
+    },
+    {
+      "id": "322",
+      "sample_name": "add_dirent_to_buf",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "323",
+      "sample_name": "btrfs_get_extent_fiemap",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "324",
+      "sample_name": "descriptor_loc",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "325",
+      "sample_name": "do_swap_page",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "326",
+      "sample_name": "pkinit_process_td_trusted",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "327",
+      "sample_name": "smp_check_auth_req",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "328",
+      "sample_name": "ssl3_write_bytes",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "329",
+      "sample_name": "vmx_set_msr",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    },
+    {
+      "id": "330",
+      "sample_name": "xfs_vm_set_page_dirty",
+      "exploit_chain": null,
+      "label": 0,
+      "correctness_flag": 0,
+      "is_correct": true
+    }
+  ]
+}
