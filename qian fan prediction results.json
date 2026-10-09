@@ -12,10 +12,10 @@
     {
       "id": "002",
       "sample_name": "web10",
-      "exploit_chain": "信息泄露→密码学误用→信息泄露→长度扩展攻击→认证绕过→敏感信息泄露",
+      "exploit_chain": "信息泄露→密码学误用→认证绕过→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "003",
@@ -116,10 +116,10 @@
     {
       "id": "015",
       "sample_name": "web5",
-      "exploit_chain": "服务端请求伪造→访问受限接口→跨站脚本→敏感信息泄露",
+      "exploit_chain": "服务端请求伪造→跨站脚本→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "016",
@@ -188,10 +188,10 @@
     {
       "id": "024",
       "sample_name": "web_gift",
-      "exploit_chain": "备份文件泄露→extract 变量覆盖→任意文件读取→比较绕过→输出 flag",
+      "exploit_chain": "备份文件泄露→extract 变量覆→输出 flag",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "025",
@@ -268,10 +268,10 @@
     {
       "id": "034",
       "sample_name": "web_upload1",
-      "exploit_chain": "文件上传绕过MIME校验→上传PHP脚本→WebShell落地/代码执行→任意文件读取→Flag泄露",
+      "exploit_chain": "文件上传绕过MIME校验→任意文件读取→Flag泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "035",
@@ -436,10 +436,10 @@
     {
       "id": "055",
       "sample_name": "simple_login",
-      "exploit_chain": "源码泄露→addslashes过滤绕过→SQL注入→数据库数据泄露→Flag泄露",
+      "exploit_chain": "源码泄露→SQL注入→数据库数据泄露→Flag泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "056",
@@ -556,10 +556,10 @@
     {
       "id": "070",
       "sample_name": "unserialize-1",
-      "exploit_chain": "反序列化注入→对象注入→析构函数文件包含→php伪协议读取源码→Flag泄露",
+      "exploit_chain": "反序列化注入→php伪协议读取源码→Flag泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "071",
