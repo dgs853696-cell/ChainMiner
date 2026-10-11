@@ -4,10 +4,10 @@
     {
       "id": "001",
       "sample_name": "web8",
-      "exploit_chain": "源码泄露→类型混淆→认证绕过→敏感信息泄露",
+      "exploit_chain": "源码泄露→类型混淆→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "002",
@@ -220,10 +220,10 @@
     {
       "id": "028",
       "sample_name": "web_python",
-      "exploit_chain": "URL路径可控→模板注入SSTI→任意代码执行/任意文件读取→Flag泄露",
+      "exploit_chain": "URL路径可控→模板注入SSTI→Flag泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "029",
@@ -476,10 +476,10 @@
     {
       "id": "060",
       "sample_name": "sqlgame_revenge-单引号直接闭合",
-      "exploit_chain": "→SQL注入绕过过滤→构造查询结果伪造用户→逻辑校验通过→Flag泄露",
+      "exploit_chain": "→SQL注入绕过过滤→构造查询结果伪造用户→Flag泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "061",
@@ -564,10 +564,10 @@
     {
       "id": "071",
       "sample_name": "unserialize-2",
-      "exploit_chain": "反序列化注入→魔术方法链触发→任意文件读取→敏感信息泄露→Flag泄露",
+      "exploit_chain": "反序列化注入→任意文件读取→敏感信息泄露→Flag泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "072",
@@ -1172,10 +1172,10 @@
     {
       "id": "147",
       "sample_name": "hello",
-      "exploit_chain": "信任可控请求头XForwardedFor→伪造内网来源绕过访问限制→信任可控UserAgent→伪造客户端标识通过二次校验→敏感信息泄露flag回显",
+      "exploit_chain": "信任可控请求头XForwardedFor→信任可控UserAgent→伪造客户端标识通过二次校验→敏感信息泄露flag回显",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "148",
@@ -1220,10 +1220,10 @@
     {
       "id": "153",
       "sample_name": "Audit Master",
-      "exploit_chain": "输入参数可控→引号过滤不完整→Jinja2模板注入SSTI→模板表达式执行→读取应用配置→敏感信息泄露",
+      "exploit_chain": "输入参数可控→引号过滤不完整→Jinja2模板注入SSTI→读取应用配置→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "154",
@@ -1340,10 +1340,10 @@
     {
       "id": "168",
       "sample_name": "bestphp",
-      "exploit_chain": "function参数可控任意函数调用→extract变量覆盖→可控include文件包含LFI→源码读取→敏感信息泄露",
+      "exploit_chain": "function参数可控任意函数调用→可控include文件包含LFI→源码读取→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "169",
@@ -1356,10 +1356,10 @@
     {
       "id": "170",
       "sample_name": "bookstore",
-      "exploit_chain": "源码泄露backup→硬编码弱口令登录adminadmin→上传文件名路径穿越任意文件写入覆盖books数据→pickle不安全反序列化→远程代码执行RCE→敏感信息泄露",
+      "exploit_chain": "源码泄露backup→上传文件名路径穿越任意文件写入覆盖books数据→pickle不安全反序列化→远程代码执行RCE→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "171",
@@ -1500,10 +1500,10 @@
     {
       "id": "188",
       "sample_name": "coloursnake",
-      "exploit_chain": "业务逻辑缺陷仅靠时间间隔判定防作弊→接口getScore无鉴权可直接请求→脚本化重复触发累加score→达到阈值触发flag回显→敏感信息泄露",
+      "exploit_chain": "业务逻辑缺陷仅靠时间间隔判定防作弊→脚本化重复触发累加score→达到阈值触发flag回显→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "189",
@@ -1620,10 +1620,10 @@
     {
       "id": "203",
       "sample_name": "demophpcms",
-      "exploit_chain": "图片上传校验缺陷信任MIME→文件后缀可控拼接进shell命令→命令注入→远程代码执行RCE→敏感信息泄露",
+      "exploit_chain": "图片上传校验缺陷信任MIME→文件后缀可控拼接进shell命令→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "204",
@@ -1756,10 +1756,10 @@
     {
       "id": "220",
       "sample_name": "ez_cms",
-      "exploit_chain": "未授权安装或初始化接口暴露→重置管理员密码或创建管理员→后台登录→模板或文件管理可写→写入可执行脚本→远程代码执行RCE→敏感信息泄露",
+      "exploit_chain": "未授权安装或初始化接口暴露→重置管理员密码或创建管理员→远程代码执行RCE→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "221",
@@ -1876,10 +1876,10 @@
     {
       "id": "235",
       "sample_name": "ez-serialize",
-      "exploit_chain": "不安全反序列化unserialize→对象属性注入→POP链魔术方法触发→可控回调或任意函数调用→远程代码执行RCE→敏感信息泄露",
+      "exploit_chain": "不安全反序列化unserialize→对象属性注入→可控回调或任意函数调用→远程代码执行RCE→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "236",
@@ -2020,10 +2020,10 @@
     {
       "id": "253",
       "sample_name": "go_session",
-      "exploit_chain": "Session签名密钥泄露或弱随机→伪造Session→权限绕过伪装admin→访问受限接口→敏感信息泄露",
+      "exploit_chain": "Session签名密钥泄露或弱随机→访问受限接口→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "254",
@@ -2110,8 +2110,8 @@
       "sample_name": "IncludeAirline",
       "exploit_chain": "文件包含LFI→phpfilter源码读取→配置泄露→凭证或密钥泄露→访问受限接口→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "265",
@@ -2236,10 +2236,10 @@
     {
       "id": "280",
       "sample_name": "quals",
-      "exploit_chain": "AngularJS模板表达式注入→服务端渲染时表达式执行→获取注入器中的i18n服务→滥用模板读取接口读取本地文件flagtxt→敏感信息泄露",
+      "exploit_chain": "AngularJS模板表达式注入→服务端渲染时表达式执行→滥用模板读取接口读取本地文件flagtxt→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "281",
@@ -2388,10 +2388,10 @@
     {
       "id": "299",
       "sample_name": "urlstorage",
-      "exploit_chain": "URL存储功能缺陷→URL校验可绕过→管理员机器人访问存储URL→存储型或反射型XSS→读取管理员Cookie或发起特权请求→敏感信息泄露",
+      "exploit_chain": "URL存储功能缺陷→URL校验可绕过→敏感信息泄露",
       "label": 1,
-      "correctness_flag": 0,
-      "is_correct": true
+      "correctness_flag": 1,
+      "is_correct": false
     },
     {
       "id": "300",
