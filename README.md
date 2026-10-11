@@ -17,6 +17,8 @@
 
 Requirements: Python ≥ 3.10, Node.js ≥ 18
 
+The complete project source is provided in `ChainMiner.zip` at the repository root — unzip it first, then run the commands below inside the unzipped folder.
+
 ```bash
 # 1. Install backend dependencies (from the project root)
 python -m pip install -r requirements.txt
