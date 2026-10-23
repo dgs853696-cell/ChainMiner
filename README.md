@@ -72,6 +72,3 @@ Upload ZIP → file filtering / extraction (path-traversal and size checks)
 ③ Summary: penetration-flow summary + Mermaid diagram based on the final chain
 ```
 
-## License
-
-Not specified yet; please contact the author before citing.
